@@ -14,7 +14,7 @@ AutoItSetOption( "WinTitleMatchMode", 2)
 HotKeySet("{PAUSE}", "Terminate")
 
 
-MsgBox($MB_SYSTEMMODAL, "DoNotReboot", "This program signals that there is an important process running on your profile" & @CRLF & "by making the distinct X icon visible in the task manager" & @CRLF & @CRLF & @CRLF & "Terminate by pressing PAUSE or closing it in the system tray" & @CRLF & @CRLF & "Pausing the script in the systray does nothing, the program is still visible in the task manager")
+MsgBox($MB_SYSTEMMODAL, "Do Not Reboot Signal", "This program signals that there is an important process running on your profile by making the distinct X icon visible in the task manager" & @CRLF & @CRLF & @CRLF & "Terminate by pressing PAUSE, or closing it in the system tray" & @CRLF & @CRLF & "Pausing the script in the systray does nothing, the program is still visible in the task manager")
 
 While 1
    Sleep(10000)
